@@ -132,7 +132,9 @@ img:hover{
   transform:scale(0.9);
   transition: all .1s ease-in-out;
 }
-@media(max-width:500px){
+
+
+/* @media(max-width:500px){
 
   body{
     margin:0px;
@@ -240,8 +242,8 @@ img:hover{
     transform:scale(0.9);
     transition: all .1s ease-in-out;
   }
-}
-/* 
+} */
+
 @media(max-width:650px){
   #header{
   margin-right:-200%;
@@ -257,7 +259,7 @@ margin-right:-200%;
     background-iage:url(./images/1.png),url(./images/2.png);
     background-repeat: no-repeat,repeat;
     color:white;
-    width:299%;
+    width:306%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -316,4 +318,9 @@ margin-right:-200%;
     padding:30px;            
     margin:10px;
   }
-} */
+
+  img:hover{
+    transform:scale(0.9);
+    transition: all .1s ease-in-out;
+  }
+}
