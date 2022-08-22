@@ -1,13 +1,319 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  margin:0px;
+  padding:0px;
+  background-color: #ffffff;
+  font-family:'Bebas Neue', 'Lato', sans-serif;
+}
+.header-text{
+  text-align:center;
+  justify-text:ccenter;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#header{
+  text-align:center;
+  align-items:center;
+
 }
+
+#galerry{
+  margin:0px;
+  padding:10px;
+}
+#belt{
+  display:flex;
+  height:315px;
+  width:80px;
+  margin:20px;
+  padding:1px;
+
+}
+#belt1{
+  display:flex;
+  height:268px;
+  width:400px;
+  margin:10px;
+
+}
+#belt2{
+  display:flex;
+  height:350px;
+  width:100px;
+  padding:10px;
+  margin:10px;
+  
+}
+#chain{
+  margin:0px;
+  padding:20px;
+  height:310px;
+  width:100px;
+  display:flex;
+}
+#scissor{
+  margin:30px;
+  padding:30px;
+  height:320px;
+  width:100px;
+  display:flex;
+}
+#random{
+  display:flex;
+  margin:10px;
+  padding:10px;
+  height:487px;
+  width:100px;
+
+}
+#random1{
+  display:flex;
+  height:382px;
+  width:500px;
+  padding:10px;
+  margin:10px;
+}
+#contact{
+  margin-top: 80px;
+  background-image:url(./images/1.png),url(./images/2.png);
+  background-repeat: no-repeat,repeat;
+  color:white;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#contact h1{
+      font-size: 3.5rem;
+      color:#3d2514;
+      font-weight: 500;
+      margin: 0px;
+      padding: 0px;
+      font-family: 'Alfa Slab One';
+      margin-bottom: 40px;
+      color:white;
+}
+#contact form{
+  width:600px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+#contact form input,
+#contact form textarea{
+  width:100%;
+  height:50px;
+  margin:5px 0px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #110c09;
+  color: #ffffff;
+  border-radius: 5px;
+}
+#contact form textarea{
+  height: 150px;
+}
+#contact form input[type="submit"]{
+  height: 45px;
+  background: linear-gradient(90deg, #bf2222 20%,#bf2222);
+  color: #ffffff;
+  text-transform: uppercase;
+}
+#footer{
+  text-align:center;
+}
+h2{
+  text-align:center;
+}
+
+img:hover{
+  transform:scale(0.9);
+  transition: all .1s ease-in-out;
+}
+@media(max-width:500px){
+
+  body{
+    margin:0px;
+    padding:0px;
+    background-color: #ffffff;
+    font-family:'Bebas Neue', 'Lato', sans-serif;
+    
+  }
+   
+  .header-text{
+    text-align:center;
+    align-items:center;
+  }
+  
+  #header{
+    text-align:center;
+    align-items:center;
+    margin-right:-300%;
+    
+  }
+
+  #galerry{
+    margin:0px;
+    padding:0px;
+  }
+
+  #contact{
+    margin-top: 150px;
+    background-iage:url(./images/1.png),url(./images/2.png);
+    background-repeat: no-repeat,repeat;
+    color:white;
+    width:400%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #belt{
+    display:flex;
+    height:339px;
+    width:50px;
+    margin:20px;
+    padding:15px;
+  
+  }
+
+  #belt1{
+    display:flex;
+    height:288px;
+    width:400px;
+    margin:25px;
+  
+  }
+
+  #belt2{
+    display:flex;
+    height:370px;
+    width:50px;
+    padding:6px;
+    margin:20px;
+    
+  }
+
+  #chain{
+    margin:0px;
+    padding:0px;
+    height:341px;
+    width:200px;
+    display:flex;
+  }
+
+  #scissor{
+    margin:10px;
+    padding:20px;
+    height:351px;
+    width:50x;
+    display:flex;
+  }
+
+  #random{
+    display:flex;
+    margin:6px;
+    padding:20px;
+    height:520px;
+    width:60px;
+  
+  }
+  #random1{
+    display:flex;
+    height:414px;
+    width:0px;
+    padding:6px;            
+    margin:10px;
+  }
+  #footer{
+     margin-right:-300%;
+  }
+
+   h2{
+    margin-right:-300%;
+   }
+
+   img:hover{
+    transform:scale(0.9);
+    transition: all .1s ease-in-out;
+  }
+}
+/* 
+@media(max-width:650px){
+  #header{
+  margin-right:-200%;
+  }
+  h2{
+margin-right:-200%;
+  }
+  #footer{
+    margin-right:-200%;
+  }
+  #contact{
+    margin-top: 120px;
+    background-iage:url(./images/1.png),url(./images/2.png);
+    background-repeat: no-repeat,repeat;
+    color:white;
+    width:299%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #belt{
+    display:flex;
+    height:318px;
+    width:50px;
+    margin:20px;
+    padding:15px;
+  
+  }
+  #belt1{
+    display:flex;
+    height:270px;
+    width:400px;
+    margin:30px;
+  
+  }
+  #belt2{
+    display:flex;
+    height:349px;
+    width:50px;
+    padding:20px;
+    margin:20px;
+    
+  }
+  #chain{
+    margin:0px;
+    padding:0px;
+    height:318px;
+    width:200px;
+    display:flex;
+  }
+  #scissor{
+    margin:13px;
+    padding:20px;
+    height:328px;
+    width:50x;
+    display:flex;
+  }
+
+  #random{
+    display:flex;
+    margin:10px;
+    padding:20px;
+    height:490px;
+    width:60px;
+  
+  }
+  #random1{
+    display:flex;
+    height:388px;
+    width:0px;
+    padding:30px;            
+    margin:10px;
+  }
+} */
