@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Nandlal-Hardware-s/static/css/main.b6deb7bc.css",
+    "main.css": "/Nandlal-Hardware-s/static/css/main.8f9d5ff9.css",
     "main.js": "/Nandlal-Hardware-s/static/js/main.53c80e89.js",
     "static/media/1.png": "/Nandlal-Hardware-s/static/media/1.04be708af1d94e238d31.png",
     "static/media/2.png": "/Nandlal-Hardware-s/static/media/2.57790c64a5d57be1df96.png",
@@ -39,11 +39,11 @@
     "static/media/collar.jpeg": "/Nandlal-Hardware-s/static/media/collar.8f70ad5bcb591c21c4cc.jpeg",
     "static/media/random7.jpeg": "/Nandlal-Hardware-s/static/media/random7.1dd0ba9b091685a48732.jpeg",
     "index.html": "/Nandlal-Hardware-s/index.html",
-    "main.b6deb7bc.css.map": "/Nandlal-Hardware-s/static/css/main.b6deb7bc.css.map",
+    "main.8f9d5ff9.css.map": "/Nandlal-Hardware-s/static/css/main.8f9d5ff9.css.map",
     "main.53c80e89.js.map": "/Nandlal-Hardware-s/static/js/main.53c80e89.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6deb7bc.css",
+    "static/css/main.8f9d5ff9.css",
     "static/js/main.53c80e89.js"
   ]
 }
